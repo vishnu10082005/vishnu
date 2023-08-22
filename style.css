@@ -1,0 +1,32 @@
+body{
+background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png);
+width: 100vw;
+height: 100vh;
+background-size: 100% 100%;
+overflow: hidden;
+}
+#astronut-1{
+    width: 500px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    animation: floating 5s infinite;
+}
+
+#astronut-2{
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    animation: floating 5s infinite;
+
+}
+
+@keyframes floating {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+}
